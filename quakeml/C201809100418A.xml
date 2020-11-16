@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<q:quakeml xmlns:q="http://quakeml.org/xmlns/quakeml/1.2" xmlns:iris="http://service.iris.edu/fdsnws/event/1/" xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance">
+  <eventParameters publicID="smi:service.iris.edu/fdsnws/event/1/query">
+    <event publicID="smi:service.iris.edu/fdsnws/event/1/query?eventid=10946332">
+      <preferredOriginID>smi:service.iris.edu/fdsnws/event/1/query?originid=34490736</preferredOriginID>
+      <preferredMagnitudeID>smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=189448735</preferredMagnitudeID>
+      <type>earthquake</type>
+      <description iris:FEcode="177">
+        <text>KERMADEC ISLANDS REGION</text>
+        <type>Flinn-Engdahl region</type>
+      </description>
+      <origin publicID="smi:service.iris.edu/fdsnws/event/1/query?originid=34490736" iris:contributorOriginId="pt18253000" iris:contributor="us" iris:contributorEventId="pt18253000,at00petnzn,us2000hbpv" iris:catalog="NEIC PDE">
+        <time>
+          <value>2018-09-10T04:19:02.630000Z</value>
+        </time>
+        <latitude>
+          <value>-31.7447</value>
+        </latitude>
+        <longitude>
+          <value>-179.3728</value>
+        </longitude>
+        <depth>
+          <value>115000.0</value>
+        </depth>
+        <creationInfo>
+          <author>at,us,pt</author>
+        </creationInfo>
+      </origin>
+      <magnitude publicID="smi:service.iris.edu/fdsnws/event/1/query?magnitudeid=189448735">
+        <mag>
+          <value>6.9</value>
+        </mag>
+        <type>mww</type>
+        <creationInfo>
+          <author>us</author>
+        </creationInfo>
+      </magnitude>
+    </event>
+  </eventParameters>
+</q:quakeml>
